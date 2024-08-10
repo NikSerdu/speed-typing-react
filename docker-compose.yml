@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  frontend:
+    build:
+      context: .
+      target: production
+    ports:
+      - "80:80"
+    volumes:
+      - frontend:/var/lib/frontend/data
+    networks:
+      - test-net
+volumes:
+  frontend:
+networks:
+  test-net:
+    driver: bridge
