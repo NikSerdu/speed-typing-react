@@ -25,6 +25,5 @@ Using docker compose (port 80)
 ```bash
   git clone https://github.com/NikSerdu/speed-typing-react
   cd speed-typing-react
-  pnpm i
   sudo docker compose up -d
 ```
