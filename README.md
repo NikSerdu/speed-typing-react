@@ -31,3 +31,7 @@ Using docker compose (port 80)
 ## Demo
 
 [Demo](https://speed-typing-react.vercel.app/)
+
+## Comments
+
+I used zustand as a state manager because in this case it was a faster and more compact solution. In other projects I also use redux.
